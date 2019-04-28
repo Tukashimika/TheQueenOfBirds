@@ -1,1 +1,1 @@
-void Preload() { } void OnEnter() { Preload(); }
+void Preload() { } void OnStart() { FadeGlobalSoundVolume(0.0f, 0.0f); SetEntityActive("Brute", true); AddEnemyPatrolNode("Brute", "PathNodeArea_12", 5.0f, ""); AddEntityCollideCallback("Brute", "EnableSoundArea", "EnableSound", true, 1); } void EnableSound(string a, string b, int s) { AddTimer("", 0.5f, "StartChase"); } void StartChase(string t) { ShowEnemyPlayerPosition("Brute"); FadeGlobalSoundVolume(1.0f, 0.5f); GiveSanityDamage(1.0f, true); } void OnEnter() { Preload(); }

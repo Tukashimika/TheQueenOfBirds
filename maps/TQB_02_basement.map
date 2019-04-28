@@ -5,7 +5,7 @@
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
             <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="7.41452 0.0025115 1.76192" CameraTarget="5.59443 -2.29229 6.07893" CameraZoom="2.26013" GridHeight="-4" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.374793 1.75046 3.11854" CameraTarget="3.59793 -2.82251 5.09489" CameraZoom="2.06013" GridHeight="-2" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -22,13 +22,14 @@
                 <File Id="5" Path="static_objects/cellarbase/wall/welder.dae" />
                 <File Id="6" Path="static_objects/cellarbase/ceiling/welder_extension.dae" />
             </FileIndex_StaticObjects>
-            <FileIndex_Entities NumOfFiles="6">
+            <FileIndex_Entities NumOfFiles="7">
                 <File Id="0" Path="entities/equipment/brick_pile/brick_pile_large.ent" />
                 <File Id="1" Path="entities/equipment/brick/brick.ent" />
                 <File Id="2" Path="entities/equipment/wooden_board/wooden_board01.ent" />
                 <File Id="3" Path="entities/storage/storage_box_wood01/storage_box_wood01.ent" />
                 <File Id="4" Path="entities/storage/storage_box_wood01/storage_box_wood01_large.ent" />
                 <File Id="5" Path="entities/lamp/candle_floor/candle_floor.ent" />
+                <File Id="6" Path="custom_stories/thequeenofbirds/entities/TQB_servant_brute.ent" />
             </FileIndex_Entities>
             <FileIndex_Decals NumOfFiles="0" />
             <StaticObjects>
@@ -43,7 +44,7 @@
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="18" Name="wall_default_6" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="2 0 -1" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="19" Name="wall_welder_1" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="2 0 -1.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="20" Name="wall_welder_2" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="-2 0 -1.25" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="21" Name="wall_door_frame_1" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="0 0 -1.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="21" Name="wall_door_frame_1" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="0 0.0746741 -1.25" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="24" Name="wall_welder_3" Rotation="1.74846e-007 1.42109e-014 -1.5708" Scale="1 1.25 1" Tag="" WorldPos="-2.75 4 0.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="25" Name="wall_default_7" Rotation="0 1.19209e-007 2.38419e-007" Scale="1 1 1" Tag="" WorldPos="4 0 5" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="26" Name="wall_default_8" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-2 0 7" />
@@ -100,10 +101,11 @@
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 0.5" Corner2UV="0 0" Corner3UV="2 0" Corner4UV="2 0.5" EndCorner="4 0 1" Group="0" ID="65" Material="C:/dev/Amnesia The Dark Descent/static_objects/cellarbase/floor/cellarbase_wood_floor.mat" Name="Plane_4" Rotation="3.14159 1.0472 1.5708" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.5 1 0.5" TileOffset="0 0 0" WorldPos="-1.75131 -0.875 5" />
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 0.5" Corner2UV="0 0" Corner3UV="2 0" Corner4UV="2 0.5" EndCorner="4 0 1" Group="0" ID="70" Material="C:/dev/Amnesia The Dark Descent/static_objects/cellarbase/floor/cellarbase_wood_floor.mat" Name="Plane_5" Rotation="3.14159 -1.0472 -1.5708" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.5 1 0.5" TileOffset="0 0 0" WorldPos="1.74869 1.125 1.5" />
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 1.6" Corner2UV="0 0" Corner3UV="1.6 0" Corner4UV="1.6 1.6" EndCorner="4 0 4" Group="0" ID="74" Material="C:/dev/Amnesia The Dark Descent/static_objects/cellarbase/floor/cellarbase_floor_alt.mat" Name="Plane_6" Rotation="3.14159 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.4 1 0.4" TileOffset="0 0 0" WorldPos="-2 2 9" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="4 0" Corner4UV="4 4" EndCorner="4 0 4" Group="0" ID="102" Material="C:/dev/Amnesia The Dark Descent/static_objects/cellarbase/floor/cellarbase_wood_floor.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="6 -4 5" />
             </Primitives>
             <Decals />
             <Entities>
-                <Area Active="true" AreaType="PlayerStart" Group="0" ID="0" Mesh="" Name="PlayerStartArea_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="0 0 0">
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="0" Mesh="" Name="PlayerStartArea_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0 0 0">
                     <UserVariables />
                 </Area>
                 <Entity Active="true" FileIndex="0" Group="0" ID="82" Name="brick_pile_large_1" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-0.75 -2 8.25">
@@ -271,9 +273,90 @@
                         <Var Name="ConnectionLightUseSpec" Value="false" />
                     </UserVariables>
                 </Entity>
-                <PointLight Active="true" CastShadows="false" DiffuseColor="0.101 0.07 0.018 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="93" Name="PointLight_1" Radius="5.64058" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.503741 1.34137 4.74615" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.101 0.07 0.018 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="93" Name="PointLight_1" Radius="5.64058" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.503741 1.34137 4.74615" />
                 <Billboard Active="true" BillboardColor="0.483 0.396 0.31 1" BillboardOffset="0" BillboardSize="1.5 1.5" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0.5 0.5 0.5" ID="94" IsHalo="true" MaterialFile="C:/dev/Amnesia The Dark Descent/billboards/bb_white_halo_no_depthtest.mat" Name="Billboard_1" Rotation="0 -0 0" Tag="" WorldPos="-0.79402 -0.546701 5.74015" />
                 <ParticleSystem Active="true" Color="0.638 0.483 0.293 1" FadeAtDistance="true" File="C:/dev/Amnesia The Dark Descent/particles/ps_light_dust.ps" Group="0" ID="95" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-0.722783 0.0323011 5.31095" />
+                <Area Active="true" AreaType="PathNode" Group="0" ID="103" Mesh="" Name="PathNodeArea_1" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="6.5 -4 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="104" Mesh="" Name="PathNodeArea_2" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="5.75 -3.5 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="105" Mesh="" Name="PathNodeArea_3" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="5.25 -3.25 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="106" Mesh="" Name="PathNodeArea_4" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="4.75 -3 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="107" Mesh="" Name="PathNodeArea_5" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="4.25 -2.75 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="108" Mesh="" Name="PathNodeArea_6" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="3.75 -2.5 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="109" Mesh="" Name="PathNodeArea_7" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="3.25 -2.25 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="110" Mesh="" Name="PathNodeArea_8" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="2.75 -2 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="111" Mesh="" Name="PathNodeArea_9" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="2.25 -1.75 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="112" Mesh="" Name="PathNodeArea_10" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="1.25 -2 6.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="113" Mesh="" Name="PathNodeArea_11" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -2 5.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="114" Mesh="" Name="PathNodeArea_12" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -1.5 4.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="115" Mesh="" Name="PathNodeArea_13" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -1.25 4.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="116" Mesh="" Name="PathNodeArea_14" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -1 3.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="117" Mesh="" Name="PathNodeArea_15" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -0.75 3.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="118" Mesh="" Name="PathNodeArea_16" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -0.5 2.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="119" Mesh="" Name="PathNodeArea_17" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 -0.25 2.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="120" Mesh="" Name="PathNodeArea_18" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 0 1.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="121" Mesh="" Name="PathNodeArea_19" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 0.25 1.25">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="122" Mesh="" Name="PathNodeArea_20" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="0.75 0 0.75">
+                    <UserVariables />
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="123" Mesh="" Name="EnableSoundArea" Rotation="0 0 0" Scale="0.5 4 3.75" Tag="" WorldPos="2 0 6.875">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="PathNode" Group="0" ID="124" Mesh="" Name="PathNodeArea_21" Rotation="0 0 0" Scale="0.5 0.5 0.5" Tag="" WorldPos="8 -4 6.75">
+                    <UserVariables />
+                </Area>
+                <Entity Active="false" FileIndex="6" Group="0" ID="125" Name="Brute" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="4 -2.75 6.5">
+                    <UserVariables>
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="DisableTriggers" Value="false" />
+                        <Var Name="Hallucination" Value="false" />
+                        <Var Name="HallucinationEndDist" Value="3" />
+                    </UserVariables>
+                </Entity>
             </Entities>
             <Misc>
                 <Compound Active="true" Group="0" ID="62" Name="Compound_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="4.25 -1.375 6.99869">
